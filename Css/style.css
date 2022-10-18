@@ -7,7 +7,7 @@
 }
 
 .back-ground{
-    background-color: #c4d70f;
+    background-image: linear-gradient(173deg , #c4d70f 80%,white 20%);
     width: 100%;
     height: 100vh;
 }
