@@ -1,10 +1,12 @@
 var btn = document.getElementById('btn');
+btn.style.display = 'none'
 window.onscroll = function(){
-if (window.scrollY >= 300){
-    btn.style.display = 'block';
+if (window.scrollY <= 400){
+    btn.style.display = 'none';
+
 }
 else{
-    btn.style.display = 'none';
+    btn.style.display = 'block';
 }
 }
 btn.onclick = function(){
